@@ -39,7 +39,7 @@ A standard, deep CNN can suffer from the vanishing gradient problem. To solve th
 * A "skip connection" adds the input of a block to its output, allowing gradients to flow more easily through the network.
 * The final layers consist of a `GlobalAveragePooling2D` layer, a `Dense` layer, and a `softmax` activation function to output probabilities for the five emotion classes.
 
-## 🏆 Results
+## Results
 
 The model was trained for **100 epochs** and achieved a **peak validation accuracy of approximately 85%**.
 
@@ -49,7 +49,7 @@ This 85% accuracy represents a strong improvement over simpler, "plain" CNN arch
 
 ![Model Training History](images/training_history.png)
 
-## 🚀 How to Run
+## How to Run
 
 1.  **Clone the repository:**
     ```bash
